@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Properties</title>
+  <style>
+    html {
+      font-size: 30px;
+    }
+
+    body {
+      background-color: cornflowerblue;
+      color: white;
+      font-size: 18px;
+    }
+
+    .color {
+      color: coral;
+    }
+
+    .font-size {
+      font-size: 2rem;
+    }
+
+    .font-weight {
+      font-weight: 900;
+    }
+
+    .font-family {
+      font-family: 'Caveat', cursive;
+      font-weight: 400;
+    }
+
+    .text-align {
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Important CSS Properties</h1>
+  <p class="color">Color</p>
+  <p class="font-size">Font Size</p>
+  <p class="font-weight">Font Weight</p>
+  <p class="font-family">Font Family</p>
+  <p class="text-align">Text Align</p>
+
+  <!-- 
+1. **px (pixels):**
+   - An absolute unit of measurement.
+   - Based on the width of a pixel on the device screen.
+   - Fixed size and does not automatically adjust to the device's font size.
+
+2. **pt (points):**
+   - Another absolute unit of measurement.
+   - Commonly used for printing.
+   - 1 point is equal to 1/72 of an inch.
+   - Relatively consistent across different printing devices.
+
+3. **em:**
+   - A relative unit of measurement.
+   - Relative to the font size of the parent element.
+   - If the font size of the parent element is 16px, 1em will be equal to 16px.
+
+4. **rem:**
+   - Similar to `em`, but relative to the font size of the root element (typically the `html` element).
+   - Useful when you want to maintain consistency across the entire page, regardless of the font size of 
+  the parent element.
+
+5. **xx-large:**
+   - A keyword representing a specific font size, larger than `x-large`.
+   - The exact size may vary between browsers and font styles.
+
+In summary, `px` and `pt` are absolute units, while `em` and `rem` are relative units. 
+The use of relative units, such as `em` and `rem`, is often preferred for creating more 
+flexible and responsive designs. Keywords like `xx-large` represent specific font sizes but 
+can vary in absolute terms depending on the context. -->
+</body>
+
+</html>
