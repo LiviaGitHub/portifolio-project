@@ -10,7 +10,9 @@
       color: white;
       border: 5px solid gold;
       display: inline-flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: center;
+      align-items: center;
     }
 
     .container > * {
@@ -19,31 +21,40 @@
 
     .red {
       background-color: #eb4d4b;
+      order: 3;
+      align-self: center;
     }
 
     .orange {
       background-color: #f0932b;
+      order: 2;
     }
 
     .yellow {
       background-color: #f6e58d;
+      order: 1;
     }
 
     .green {
       background-color: #6ab04c;
+      order: 4;
     }
 
     .blue {
       background-color: #4834d4;
+      order: 5;
     }
 
     .indigo {
       background-color: #30336b;
+      order: 6;
     }
 
     .purple {
       background-color: #be2edd;
+      order: 7;
     }
+  
   </style>
 </head>
 
