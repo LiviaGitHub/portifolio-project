@@ -11,7 +11,16 @@
       font-family: "Sono", sans-serif;
     }
 
-    /* Hint: What can you do with a media query and flexbox? */
+    /* maximum screen width (max-width: 1250px) 
+    This media rule specifies that when the screen width is a maximum of 1250 pixels, 
+    the following properties are applied to elements with the .pricing-container class:
+    flex-direction: column;: This changes the main direction of the flex container to be a column 
+    instead of the default row direction. This means that child elements within .pricing-container 
+    will be stacked vertically on top of each other rather than side by side.
+    height: 100%;: Sets the height of the .pricing-container to 100% of the height of its parent container. 
+    This ensures that the container takes up the entire available height of the screen,
+     making it easier to scroll vertically if necessary.
+    */
     @media (max-width: 1250px) {
       .pricing-container {
         flex-direction: column;
@@ -60,7 +69,6 @@
     .plan-features li {
       margin-bottom: 20px;
     }
-
   </style>
 </head>
 
