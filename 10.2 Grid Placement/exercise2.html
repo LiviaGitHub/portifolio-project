@@ -35,12 +35,28 @@
       grid-column: span 2;
     }
 
+    /* 
+      The property `grid-column: span 2;` in the `.astronaut` class is telling the browser to make the 
+      `.astronaut` item span two columns of the grid.
+      In the grid layout defined by the CSS, we have three columns specified using 
+      `grid-template-columns: 1fr 1fr 1.5fr;`. This means we have three columns in the grid, 
+      where the first and second columns have the same width (1fr), 
+      while the third column has a width of 1.5fr (1.5 times the width of the first column).
+      When you apply `grid-column: span 2;` to the `.astronaut` item, 
+      it tells the browser to make the item span two columns of the grid. Therefore, 
+      the `.astronaut` item will extend from the first column to the third column, 
+      spanning a width equivalent to two columns.
+      Essentially, `span 2` is defining the width occupied by the item in the grid, 
+      allowing it to span across more than one column, in this case, two columns. 
+      This is useful for controlling the layout and width of items in the grid layout.
+
+      the order property allows you to control the visual order of flex items within a flex container, 
+      providing flexibility in the layout of your page.
+     */
     .astronaut {
       background-color: #03989E;
       order: 1;
-
-      /* TODO: Make the astronaut box look like the goal2 image. */
-
+      grid-column: span 2;
     }
   </style>
 </head>
