@@ -1,24 +1,41 @@
-.left-background {
-  background: white;
-  width: 300px;
-  height: 700px;
-  padding-left: 50px;
-}
-
 .right-background {
   background: #cac9c9;
   width: 300px;
   height: 700px;
   padding-left: 50px;
+  padding-top: 30px;
+}
+
+.left-background {
+  background: white;
+  width: 300px;
+  float: left;
+  padding-left: 50px;
+  padding-top: 30px;
 }
 
 .container-background{
-  width: 700px;  
-  /* border-top:#000, 50px; */
+  width: 40%;
+  margin-top: 20px;
+  border-top: 15px solid black;
 }
 
 .title {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
+}
+
+.name-h2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  font-weight: bold; 
+}
+
+.email {
+  font-size: 12px;
+}
+
+.image{
+  float: left;
 }
